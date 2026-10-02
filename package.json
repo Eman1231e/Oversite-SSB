@@ -1,0 +1,15 @@
+{
+  "name": "oversite-customs-starting-pack-bot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.4.1",
+    "discord.js": "^14.22.1",
+    "dotenv": "^17.2.3"
+  }
+}
